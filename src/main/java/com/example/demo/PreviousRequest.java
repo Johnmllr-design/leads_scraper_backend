@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 
 
 @Entity
+@Table(name = "previous_request")
 class previousRequest {
 
     @Id 
